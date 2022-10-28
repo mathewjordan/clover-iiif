@@ -25,15 +25,18 @@ const App: React.FC<Props> = ({
   options,
 }) => {
   return (
-    <ViewerProvider>
-      <RenderViewer
-        id={id}
-        manifestId={manifestId}
-        canvasIdCallback={canvasIdCallback}
-        customTheme={customTheme}
-        options={options}
-      />
-    </ViewerProvider>
+    <>
+      Testing... Clover... {id}
+      <ViewerProvider>
+        <RenderViewer
+          id={id}
+          manifestId={manifestId}
+          canvasIdCallback={canvasIdCallback}
+          customTheme={customTheme}
+          options={options}
+        />
+      </ViewerProvider>
+    </>
   );
 };
 
