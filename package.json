@@ -1,5 +1,5 @@
 {
-  "name": "@samvera/clover-iiif",
+  "name": "clover-mat",
   "version": "1.12.3",
   "description": "Viewer for audio, video and image file types driven by a IIIF manifest",
   "main": "dist/index.cjs.js",
